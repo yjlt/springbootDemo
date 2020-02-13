@@ -1,0 +1,56 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource",
+      "type": "com.yjlt.userinfo.config.DruidProperties",
+      "sourceType": "com.yjlt.userinfo.config.DruidProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.yjlt.userinfo.config.DruidProperties"
+    },
+    {
+      "name": "spring.datasource.initial-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.yjlt.userinfo.config.DruidProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.yjlt.userinfo.config.DruidProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.max-wait",
+      "type": "java.lang.Integer",
+      "sourceType": "com.yjlt.userinfo.config.DruidProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.yjlt.userinfo.config.DruidProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "com.yjlt.userinfo.config.DruidProperties"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "com.yjlt.userinfo.config.DruidProperties"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "com.yjlt.userinfo.config.DruidProperties"
+    }
+  ],
+  "hints": []
+}
